@@ -537,12 +537,7 @@ font-weight: var(--font-small);
   justify-content: center;
   flex-direction: column;
 }
-  }
 
-  @media only screen and (max-width: 800px) {
-    .section1-container {
-        flex-direction: column;
-    }
     .privacy-cartoon {
         display: none;
     }
@@ -550,6 +545,12 @@ font-weight: var(--font-small);
         display: grid;
         grid-template-columns: 1fr;
         padding: 5rem 0rem;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .section1-container {
+        flex-direction: column;
     }
     .section4-conatiner {
         display: flex;
